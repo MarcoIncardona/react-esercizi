@@ -1,7 +1,7 @@
-import { ToDo } from "./ToDo"
+import { ClickTracker } from "./ClickTracker"
 import ReactDOM from "react-dom"
 import React from "react"
 
 const root = document.querySelector("#root")
 
-ReactDOM.render(<ToDo />, root)
+ReactDOM.render(<ClickTracker />, root)
